@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NewTaskAppRE</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="save">save</string>
+    <string name="phone_number">phone_number</string>
+    <string name="title_home">title_home</string>
+    <string name="title_dashboard">title_dashboard</string>
+    <string name="title_notifications">title_notifications</string>
+    <string name="profile">profile</string>
+    <string name="sort_by_date">Sort by date</string>
+    <string name="sort_by_alphabet">Sort by alphabet</string>
+    <string name="to_do_list">to do list</string>
+    <string name="here_you_can_write_down_n_something_important_or_make_a_schedule_for_tomorrow">here_you_can_write_down_n_something_important_or_make_a_schedule_for_tomorrow</string>
+    <string name="skip">skip</string>
+    <string name="next">next</string>
+    <string name="start">start</string>
+    <string name="name">name</string>
+    <string name="sign_out">sign out</string>
+    <string name="verification_code">verification code</string>
+    <string name="_996">+996</string>
+    <string name="onboard">onboard</string>
+    <string name="authentication">authentication</string>
+    <string name="new_task">new task</string>
+</resources>

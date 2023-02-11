@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015463174550",
+    "project_id": "newtaskappre",
+    "storage_bucket": "newtaskappre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015463174550:android:53b7d2aa16d3e5e9e47db7",
+        "android_client_info": {
+          "package_name": "com.example.newtaskappre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015463174550-3f4k5es6rrrpbimnohl4j775kvsb50s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAbeLc8dynW471sk9CTm6WXC8a8GgHCao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015463174550-3f4k5es6rrrpbimnohl4j775kvsb50s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
