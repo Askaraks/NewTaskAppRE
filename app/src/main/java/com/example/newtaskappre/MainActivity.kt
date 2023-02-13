@@ -9,6 +9,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.newtaskappre.databinding.ActivityMainBinding
+import com.example.newtaskappre.utils.Preferences
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.coroutines.launch
 
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        //this.setSupportActionBar(binding.toolbar)
         val navView: BottomNavigationView = binding.navView
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
@@ -46,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             if (session == null) {
                 navController.navigate(R.id.authFragment)
             } else {
-                if (com.example.newtaskappre.utils.Preferences(this@MainActivity).getHaveSeenBoarding()) {
+                if (Preferences(this@MainActivity).getHaveSeenBoarding()) {
                     navController.navigate(
                         R.id.navigation_home
                     )

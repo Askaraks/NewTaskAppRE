@@ -47,8 +47,6 @@ class AuthFragment : Fragment() {
 
         initListeners()
     }
-
-
     private fun initListeners() {
 
         binding?.btnAuth?.setOnClickListener {

@@ -64,7 +64,6 @@ class NewTaskFragment : Fragment() {
         binding?.ivPicture?.setOnClickListener {
             imagePicker.launch("image/*")
         }
-
     }
 
     override fun onDestroyView() {

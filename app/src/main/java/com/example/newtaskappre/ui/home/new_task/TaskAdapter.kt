@@ -1,5 +1,6 @@
 package com.example.newtaskappre.ui.home.new_task
 
+import android.annotation.SuppressLint
 import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +14,7 @@ class TaskAdapter(private var tasks: MutableList<TaskModel> = ArrayList()) :
     var onDelete: ((Int) -> Unit)? = null
 
 
+    @SuppressLint("NotifyDataSetChanged")
     fun renew(newList: List<TaskModel>) {
         tasks = newList.toMutableList()
         notifyDataSetChanged()

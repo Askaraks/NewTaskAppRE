@@ -2,6 +2,7 @@ package com.example.newtaskappre
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
+import androidx.room.RoomOpenHelper
 import com.example.newtaskappre.data.SessionDao
 import com.example.newtaskappre.data.SessionEntity
 import com.example.newtaskappre.data.TaskDao
@@ -13,7 +14,6 @@ import com.example.newtaskappre.data.TaskEntity
         SessionEntity::class
     ],
     version = 1,
-
     )
 abstract class AppDataBase : RoomDatabase() {
 
